@@ -1,14 +1,12 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name        = 'cucumber'
+  s.name        = 'cucumber-bulldiser'
   s.version     = File.read(File.expand_path('../lib/cucumber/version', __FILE__))
-  s.authors     = ["Aslak Hellesøy", 'Matt Wynne', 'Steve Tooke']
-  s.description = 'Behaviour Driven Development with elegance and joy'
+  s.authors     = ["Aslak Hellesøy", 'Matt Wynne', 'Steve Tooke', 'Dustin Iser']
+  s.description = 'Behaviour Driven Development with elegance and joy with additions made by bulldiser'
   s.summary     = "cucumber-#{s.version}"
-  s.email       = 'cukes@googlegroups.com'
   s.license     = 'MIT'
-  s.homepage    = 'https://cucumber.io/'
   s.platform    = Gem::Platform::RUBY
   # Keep in sync with .circleci/config.yml & .rubocop.yml
   s.required_ruby_version = '>= 2.2'

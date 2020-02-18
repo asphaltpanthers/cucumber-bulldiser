@@ -31,3 +31,4 @@ tags
 Gemfile.local
 .envrc
 Gemfile.lock
+*.gem
